@@ -1,26 +1,28 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        input:focus{
-            outline: none;
-        }
+      input:focus {
+        outline: none;
+      }
     </style>
-</head>
-<body class="bg-gray-200">
+  </head>
+  <body class="bg-gray-200">
     <div class="m-3 bg-white h-72 w-60 rounded shadow-md">
-        <h1 class="text-2xl m-5 inline-block">Sign in</h1>
-        <div class="mx-auto w-10/12">
-        <label class="text-sm text-gray-700" for="">Username</label>
-        <input class="border-b-2 w-full mx-auto mb-3 focus:border-b-gray-500 transition-colors" type="text">
-        <label class="text-sm text-gray-700" for="">Password</label>
-        <input class="border-b-2 w-full mx-auto focus:border-b-gray-500 transition-colors mb-3" type="password">
-        <button class=" p-2 border-slate-600 border-2 text-slate-800 rounded w-full mb-4">Sign in</button>
+      <h1 class="text-2xl m-5 inline-block">Sign in</h1>
+      <div class="mx-auto w-10/12">
+        <form action="">
+          <label class="text-sm text-gray-700" for="">Username</label>
+          <input class="border-b-2 w-full mx-auto mb-3 focus:border-b-gray-500 transition-colors" type="text">
+          <label class="text-sm text-gray-700" for="">Password</label>
+          <input class="border-b-2 w-full mx-auto focus:border-b-gray-500 transition-colors mb-3" type="password">
+          <button type="submit" class="p-2 border-slate-600 border-2 text-slate-800 rounded w-full mb-4">Sign in</button>
+        </form>
         <a class="text-sm text-gray-500" href="signup.html">Sign Up?</a>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
